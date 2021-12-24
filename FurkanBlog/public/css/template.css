@@ -1,0 +1,282 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+    
+}
+body{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: white;
+}
+
+hr{
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+hr:after{
+    content: "\00a0"; 
+}
+/* navbar */
+.menu{
+    width:100%;
+    height: 90px;
+    justify-content: center;
+    line-height: 80px;
+    opacity: 2;
+
+}
+
+.sabitleme{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    width: 100%;
+    left:0;
+    right: 0;
+    z-index: 99999;
+    line-height: 50px;
+    height: 60px;
+    transition: all 2s;
+    justify-content: space-between ;
+    opacity: .8;
+    }
+
+.img-profil{
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 20px 0px black;
+}
+
+
+.nav-link{
+    color: white;
+    font-weight: bold;
+}
+
+
+/* main */
+
+.container{
+    margin-top: 20px;
+}
+#card-header{
+    text-align: center;
+}
+ol{
+    
+    list-style-type: none;
+}
+ol>li{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.container .row .col-md-8 .card{
+    box-shadow: 0px 0px 30px 0px black;
+    
+}
+
+.container .row .col-md-8 .card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px brown;
+    transition: all 1s;
+}
+
+#card-link:link{
+    color: gray;
+}
+.work-me {
+    border-radius: 5%;
+    box-shadow: 0px 0px 30px 0px brown;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+.row .col-md-12 .card{
+    box-shadow: 0px 0px 30px 0px black;
+}
+.row .col-md-12 .card:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 30px 0px brown;
+    transition: all 1s;
+}
+/* content alanı  */
+
+.col-md-8 img{
+    box-shadow: 0px 0px 10px 0px black"
+}
+
+/* right menu bar */
+#kategori-link{
+    color: white;
+}
+
+/* image view */
+.col-md-4 .image-right{
+    min-width: 230px;
+    min-height: 100px;
+    width: 100%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    background-color: #141414; 
+}
+#image-text{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    font-family: 'Santana', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    filter: drop-shadow(1px 1px 4px rgb(119, 28, 28));
+    z-index: 1;;
+    
+}
+
+
+
+/* right profil blade */
+.profil {
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative;
+    border-radius:10px;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 180px;
+    max-width: 290px;
+    width: 100%;
+    color: #ffffff;
+    text-align: left;
+    line-height: 1.4em;
+    background-color: #141414;
+}
+.profil * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.25s ease;
+    transition: all 0.25s ease;
+}
+.profil img {
+    max-width: 100%;
+    vertical-align: top;
+    opacity: 0.85;
+
+}
+.profil figcaption img:hover {
+    vertical-align: top;
+    opacity: 0.85;
+    border-radius:20px ;
+}
+.profil figcaption {
+    width: 100%;
+    background-color: rgb(43, 43, 43);
+    padding: 25px;
+    position: relative;
+}
+.profil figcaption:before {
+    position: absolute;
+    content: '';
+    bottom: 100%;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 55px 0 0 400px;
+    border-color: transparent transparent transparent #141414;
+}
+.profil figcaption a {
+    padding: 5px;
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin: 10px 0;
+    display: inline-block;
+    opacity: 0.65;
+    width: 47%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.profil figcaption a:hover {
+    opacity: 1;
+}
+.profil .profile {
+    border-radius: 30%;
+    position: absolute;
+    bottom: 100%;
+    left: 25px;
+    z-index: 4;
+    max-width: 90px;
+    opacity: 1;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+.profil .follow {
+    margin-right: 4%;
+    border-color: #2980b9;
+    color: #2980b9;
+}
+.profil h2 {
+    margin: 0 0 5px;
+    font-weight: 300;
+}
+.profil h2 span {
+    display: block;
+    font-size: 0.5em;
+    color: #2980b9;
+}
+.profil p {
+    margin: 0 0 10px;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    }
+/* footer */
+ul li{
+    list-style-type: none;
+}
+#social-media{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+a:link{
+    color:darkgray;
+}
+i{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: darkgray;
+}
+#i-instagram:hover{
+    color: orangered;
+}
+#i-facebook:hover{
+    color: rgb(10, 35, 223);
+}
+#i-github:hover{
+    color: black;
+}
+input{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+

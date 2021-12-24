@@ -1,0 +1,7 @@
+#content-config{
+    height: 300px;
+    width: 400px;
+    overflow: auto;
+    line-height: 1rem;
+    border-style: double;
+}
