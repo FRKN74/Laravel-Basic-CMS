@@ -1,4 +1,4 @@
-# Laravel-Basic-CRM
+# Laravel-Basic-CMS
 There are errors that I can't solve in this project, I'm waiting for your help!
 
 Migration artisan komutlarını terminalde çalıştırıken tek tek ,aynı şekilde seed işlemlerinide terminalde tek tek çalıştımarnız gerekebilir.
